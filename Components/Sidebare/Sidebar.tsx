@@ -5,10 +5,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaBlackTie } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import ThemeSwitch from "./theme/ThemeSwitch";
 
 function Sidebar() {
   return (
-    <div className="">
+    <div className="dark:bg-blue-500">
       <Image
         className="w-32 h-32 rounded-full inline"
         src={myPic}
@@ -61,7 +62,7 @@ function Sidebar() {
         Email Me
       </button>
       <button className="bg-gradient-to-r from-CustomeGreen to-CustomeBlue w-8/12 rounded-full py-2 px-1 text-white my-2">
-        Dark
+        <ThemeSwitch />
       </button>
     </div>
   );
