@@ -21,8 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Theme>
-        <body className=" dark:bg-black bg-blue-400 ">
+      <body className=" dark:bg-black bg-blue-400 ">
+        <Theme>
           <div className="grid grid-cols-12 gap-6 px-5 my-20 lg:mb-0 md:mb-16 sm:px-20 md:px-32 lg:px-36 xl:px-48 ">
             <div className="h-full col-span-12 p-5 text-base text-center bg-white lg:col-span-3 rounded-2xl dark:bg-blue-500">
               <Sidebar />
@@ -32,8 +32,8 @@ export default function RootLayout({
               {children}
             </div>
           </div>
-        </body>
-      </Theme>
+        </Theme>
+      </body>
     </html>
   );
 }

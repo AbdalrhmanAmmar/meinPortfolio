@@ -61,9 +61,9 @@ function Sidebar() {
       <button className="bg-gradient-to-r from-CustomeGreen to-CustomeBlue w-8/12 rounded-full py-2 px-1 text-white my-2">
         Email Me
       </button>
-      <button className="bg-gradient-to-r from-CustomeGreen to-CustomeBlue w-8/12 rounded-full py-2 px-1 text-white my-2">
+      <span className="block m-auto items-center bg-gradient-to-r from-CustomeGreen to-CustomeBlue w-8/12 rounded-full py-2 px-1 text-white my-2 ">
         <ThemeSwitch />
-      </button>
+      </span>
     </div>
   );
 }
