@@ -40,7 +40,7 @@ function Navbar() {
   useEffect(() => {
     if (pathname === "/") setactiveItem("About");
     if (pathname === "/Projects") setactiveItem("Projects");
-    if (pathname === "/Resume") setactiveItem("About");
+    if (pathname === "/Resume") setactiveItem("Resume");
   }, [pathname]);
 
   return (
