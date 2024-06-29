@@ -1,9 +1,9 @@
-import About from "@/Components/About/About";
+import Resume from "@/Components/Resume/Resume";
 
 function page() {
   return (
     <div>
-      <About />
+      <Resume />
     </div>
   );
 }
