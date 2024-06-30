@@ -49,10 +49,10 @@ function Projects() {
           handlefilterCategoryuser={handlefilterCategoryuser}
         />
       </nav>
-      <div className="relative grid grid-cols-12 gap-4 my-3">
+      <div className="relative grid grid-cols-12 gap-4 my-3  ">
         {Projects.map((project) => (
           <>
-            <div className="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div className="col-span-12 sm:col-span-6 lg:col-span-4 dark:bg-dark-200">
               <ProjectCard project={project} key={project.name} />
             </div>
           </>

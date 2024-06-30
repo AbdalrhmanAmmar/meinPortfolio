@@ -12,7 +12,7 @@ export default function About() {
         users and drive engagement.
       </h6>
       <div
-        className="shrink p-4 mt-5 bg-gray-400 dark:bg-black-100"
+        className="shrink p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{
           marginLeft: "-1.5rem",
           marginRight: "-1.5rem",
@@ -25,7 +25,7 @@ export default function About() {
         <div className="grid gap-6 my-3 md:grid-cols-2">
           {services.map((service) => (
             <div
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-black-500 md:col-span-1"
+              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-black-500 md:col-span-1 dark:bg-dark-200"
               key={service.title}
             >
               <ServiceCard service={service} />

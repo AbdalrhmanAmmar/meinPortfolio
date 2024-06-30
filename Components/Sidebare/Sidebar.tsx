@@ -9,7 +9,7 @@ import ThemeSwitch from "./theme/ThemeSwitch";
 
 function Sidebar() {
   return (
-    <div className="dark:bg-blue-500">
+    <div className="">
       <Image
         className="w-32 h-32 rounded-full inline"
         src={myPic}
@@ -18,15 +18,15 @@ function Sidebar() {
       <h1 className="my-4 text-3xl font-medium tracking-wider">
         <span className="font-Playwrite">Abdelrhman</span> Ammar
       </h1>
-      <p className="px-2 py-1 my-3 rounded-full bg-foreground">
+      <p className="px-2 py-1 my-3 rounded-full bg-foreground dark:bg-dark-200 dark:bg-black-500">
         Frontend developer
       </p>
       <a
-        className="px-2 py-1 my-3 bg-foreground rounded-full flex flex-row justify-center items-center gap-2"
+        className="px-2 py-1 my-3 bg-foreground rounded-full flex flex-row justify-center items-center gap-2 dark:bg-dark-200 dark:bg-black-500"
         href=""
         download="name"
       >
-        <FaBlackTie className="w-6 h-6 cursor-pointer" />
+        <FaBlackTie className="w-6 h-6 cursor-pointer " />
         Download Resume
       </a>
       <div className="flex justify-around my-5 text-baseColor ">
@@ -43,10 +43,10 @@ function Sidebar() {
       <div>
         {/* address */}
         <div
-          className="my-5 py-4 bg-foreground space-y-2  "
+          className="my-5 py-4 bg-foreground space-y-2  dark:bg-dark-200   "
           style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
         >
-          <div className="flex items-center justify-center space-x-4 font-bold">
+          <div className="flex items-center justify-center space-x-4 font-bold ">
             <FaLocationDot className="w-6 h-6" />
             <span>Cairo, Egypt</span>
           </div>
