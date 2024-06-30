@@ -109,6 +109,7 @@ export const projectsdata: Iproject[] = [
     deployed_url: "https://abdalrhmanammar.github.io/BarberShop/",
     github_url: "https://github.com/AbdalrhmanAmmar/BarberShop",
     category: ["ReactJs"],
+    categoryuser: ["landing page"],
     key_techs: ["ReactJs", "Css"],
   },
   {
@@ -119,6 +120,7 @@ export const projectsdata: Iproject[] = [
     deployed_url: "https://abdalrhmanammar.github.io/BarberShop/",
     github_url: "https://github.com/AbdalrhmanAmmar/BarberShop",
     category: ["UI UX"],
+    categoryuser: ["Ecommerce"],
     key_techs: ["Html", "Css", "Bootstrap", "Javascript", "Js Libraries"],
   },
   {
@@ -129,6 +131,7 @@ export const projectsdata: Iproject[] = [
     deployed_url: "https://abdalrhmanammar.github.io/photography/",
     github_url: "https://github.com/AbdalrhmanAmmar/photography/",
     category: ["UI UX"],
+    categoryuser: ["landing page"],
     key_techs: ["Html", "Css", "Bootstrap", "Javascript"],
   },
   {
@@ -138,7 +141,8 @@ export const projectsdata: Iproject[] = [
     image_path: "/barber.png",
     deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
     github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
+    category: ["Nextjs"],
+    categoryuser: ["landing page"],
     key_techs: ["Html", "Css", "Bootstrap", "Javascript"],
   },
 
@@ -149,7 +153,8 @@ export const projectsdata: Iproject[] = [
     image_path: "/barber.png",
     deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
     github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
+    category: ["ReactJs"],
+    categoryuser: ["Ecommerce"],
     key_techs: ["HTML", "CSS"],
   },
   {
@@ -159,7 +164,8 @@ export const projectsdata: Iproject[] = [
     image_path: "/barber.png",
     deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
     github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
+    category: ["ReactJs"],
+    categoryuser: ["Ecommerce"],
     key_techs: ["HTML", "CSS"],
   },
   {
@@ -169,57 +175,8 @@ export const projectsdata: Iproject[] = [
     image_path: "/barber.png",
     deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
     github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["UI UX"],
+    category: ["ReactJs"],
+    categoryuser: ["Ecommerce"],
     key_techs: ["HTML", "CSS"],
   },
 ];

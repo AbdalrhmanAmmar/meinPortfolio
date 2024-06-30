@@ -41,7 +41,7 @@ function Navbar() {
     if (pathname === "/") setactiveItem("About");
     if (pathname === "/Projects") setactiveItem("Projects");
     if (pathname === "/Resume") setactiveItem("Resume");
-  }, [pathname]);
+  }, []);
 
   return (
     <div className="flex items-center justify-between px-5 py-3 my-3">

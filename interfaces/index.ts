@@ -18,8 +18,10 @@ export interface Iproject {
   deployed_url: string;
   github_url: string;
   category: categorydev[];
-  categoryuser?: string[];
+  categoryuser: categoryuser[];
   key_techs: string[];
 }
 
 export type categorydev = "UI UX" | "ReactJs" | "Nextjs";
+
+export type categoryuser = "landing page" | "Ecommerce";
