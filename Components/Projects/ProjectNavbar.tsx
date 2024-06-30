@@ -1,17 +1,18 @@
-import { categorydev, categoryuser } from "@/interfaces";
+import { Iproject, categorydev, categoryuser } from "@/interfaces";
 import { FunctionComponent, useState } from "react";
 import ToggleCategory from "./ToggleCategory";
+import { projectsdata } from "@/utils/data";
 
 const NavItemDev: FunctionComponent<{
   value: categorydev | "All";
   handlefilterCategory: Function;
-}> = ({ value, handlefilterCategory }) => {
+  Active: string;
+}> = ({ value, handlefilterCategory, Active }) => {
+  let classNames = "capitalize cursor-pointer hover:text-green-600 ";
+  if (Active === value) classNames += "text-green-600";
   return (
-    <li
-      className="capitalize cursor-pointer hover:text-green-600"
-      onClick={() => handlefilterCategory(value)}
-    >
-      {value}
+    <li className={classNames} onClick={() => handlefilterCategory(value)}>
+      <span>{value}</span>
     </li>
   );
 };
@@ -19,12 +20,12 @@ const NavItemDev: FunctionComponent<{
 const NavItemuser: FunctionComponent<{
   value: categoryuser | "All";
   handlefilterCategoryuser: Function;
-}> = ({ value, handlefilterCategoryuser }) => {
+  Active: string;
+}> = ({ value, handlefilterCategoryuser, Active }) => {
+  let classNames = "capitalize cursor-pointer hover:text-green-600 ";
+  if (Active === value) classNames += "text-green-600";
   return (
-    <li
-      className="capitalize cursor-pointer hover:text-green-600"
-      onClick={() => handlefilterCategoryuser(value)}
-    >
+    <li className={classNames} onClick={() => handlefilterCategoryuser(value)}>
       {value}
     </li>
   );
@@ -33,12 +34,16 @@ const NavItemuser: FunctionComponent<{
 interface ProjectNavbarProps {
   handlefilterCategory: Function;
   handlefilterCategoryuser: Function;
+  setProjects: (value: Iproject[]) => void;
+  Active: string;
   setActive: (value: string) => void;
 }
 
 const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
   handlefilterCategory,
   handlefilterCategoryuser,
+  setProjects,
+  Active,
   setActive,
 }) => {
   const [isToggleCategory, setToggleCategory] = useState(false);
@@ -51,18 +56,22 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
             <NavItemDev
               value="All"
               handlefilterCategory={handlefilterCategory}
+              Active={Active}
             />
             <NavItemDev
               value="UI UX"
               handlefilterCategory={handlefilterCategory}
+              Active={Active}
             />
             <NavItemDev
               value="ReactJs"
               handlefilterCategory={handlefilterCategory}
+              Active={Active}
             />
             <NavItemDev
               value="Nextjs"
               handlefilterCategory={handlefilterCategory}
+              Active={Active}
             />
           </>
         ) : (
@@ -70,14 +79,17 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
             <NavItemuser
               value="All"
               handlefilterCategoryuser={handlefilterCategoryuser}
+              Active={Active}
             />
             <NavItemuser
               value="landing page"
               handlefilterCategoryuser={handlefilterCategoryuser}
+              Active={Active}
             />
             <NavItemuser
               value="Ecommerce"
               handlefilterCategoryuser={handlefilterCategoryuser}
+              Active={Active}
             />
           </>
         )}
@@ -85,6 +97,7 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
       <ToggleCategory
         onClickToggle={() => {
           setToggleCategory(!isToggleCategory);
+          setProjects(projectsdata);
           setActive("All");
         }}
       />
