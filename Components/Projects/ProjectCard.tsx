@@ -43,13 +43,13 @@ const ProjectCard: FunctionComponent<ProjectCardProps> = ({ project }) => {
             <div className="flex justify-center my-4 space-x-3">
               <a
                 href={github_url}
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 rounded-sm dark:bg-black-500 "
+                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 "
               >
                 <FaGithub /> <span>Github</span>
               </a>
               <a
                 href={deployed_url}
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 rounded-sm dark:bg-black-500"
+                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
                 <FaGithub /> <span>Project</span>
               </a>
@@ -63,7 +63,7 @@ const ProjectCard: FunctionComponent<ProjectCardProps> = ({ project }) => {
               {key_techs.map((value, i) => (
                 <span
                   key={i}
-                  className="p-1 px-2 my-1 bg-gray-300 rounded-sm dark:bg-black-500"
+                  className="px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounde-sm"
                 >
                   {value}
                 </span>
@@ -72,7 +72,7 @@ const ProjectCard: FunctionComponent<ProjectCardProps> = ({ project }) => {
           </div>
 
           <button
-            className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-black-200"
+            className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
             onClick={() => setshowDetails(false)}
           >
             <IoMdCloseCircleOutline size={30} />
