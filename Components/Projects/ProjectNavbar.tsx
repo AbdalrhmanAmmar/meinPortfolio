@@ -46,7 +46,7 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
   Active,
   setActive,
 }) => {
-  const [isToggleCategory, setToggleCategory] = useState(false);
+  const [isToggleCategory, setToggleCategory] = useState(true);
 
   return (
     <div className="flex items-center justify-between w-full">
@@ -100,6 +100,7 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
           setProjects(projectsdata);
           setActive("All");
         }}
+        isToggleCategory={isToggleCategory}
       />
     </div>
   );

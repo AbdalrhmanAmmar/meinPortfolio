@@ -2,9 +2,10 @@
 
 interface Iprops {
   onClickToggle: () => void;
+  isToggleCategory: boolean;
 }
 
-function ToggleCategory({ onClickToggle }: Iprops) {
+function ToggleCategory({ onClickToggle, isToggleCategory }: Iprops) {
   return (
     <div>
       <label className="inline-flex items-center cursor-pointer">
@@ -14,7 +15,7 @@ function ToggleCategory({ onClickToggle }: Iprops) {
           onClick={onClickToggle}
         ></div>
         <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
-          dev category
+          {!isToggleCategory ? "dev category" : "user category"}
         </span>
       </label>
     </div>

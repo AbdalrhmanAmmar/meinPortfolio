@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 
 export default function About() {
   return (
-    <div className="flex flex-col shrink px-6 pt-1">
+    <div className="flex flex-col  px-6 pt-1">
       <h6 className="my-3 text-base font-medium">
         Greetings! I'm Abdelrhman, a passionate Front-End Web Developer with
         expertise in HTML, CSS, JavaScript, React.js, TypeScript, and Next.js.
@@ -12,13 +12,13 @@ export default function About() {
         users and drive engagement.
       </h6>
       <div
-        className="shrink p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+        className=" p-4 mt-5 bg-gray-400 dark:bg-dark-100 pb-28 overflow-hidden  "
         style={{
           marginLeft: "-1.5rem",
           marginRight: "-1.5rem",
         }}
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide">
+        <h4 className="my-3 text-xl font-semibold tracking-wide mt-4">
           What I am doing
         </h4>
 
