@@ -17,6 +17,9 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
       width: bar_width,
       transition: {
         duration: 0.4,
+        type: "spring",
+        damping: 10, // value of the bounce
+        stiffness: 100, //
       },
     },
   };
@@ -25,6 +28,9 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
     <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-black-500">
       <motion.div
         className="flex items-center px-4 py-1 rounded-full bg-blue-500"
+        style={{
+          width: bar_width,
+        }}
         variants={variants}
         initial="initial"
         animate="animate"
