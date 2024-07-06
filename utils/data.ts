@@ -113,70 +113,14 @@ export const projectsdata: Iproject[] = [
     key_techs: ["ReactJs", "Css"],
   },
   {
-    name: "Barber Shop",
+    name: " Porfoltio",
     description:
       "Our website offers a range of personalized grooming services to help you look and feel your best. Our experienced barbers and stylists provide haircuts, beard trims, hot towel shaves, coloring, styling, and more. Book your appointment today and experience our expert services at competitive prices.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/BarberShop/",
+    image_path: "/Images/portfolios.JPG",
+    deployed_url: "https://trainning-one.vercel.app/",
     github_url: "https://github.com/AbdalrhmanAmmar/BarberShop",
-    category: ["UI UX"],
-    categoryuser: ["Ecommerce"],
-    key_techs: ["Html", "Css", "Bootstrap", "Javascript", "Js Libraries"],
-  },
-  {
-    name: "photography",
-    description:
-      "Discover a stunning collection of images on our website, featuring a wide variety of captivating themes and subjects for your viewing pleasure",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/photography/",
-    github_url: "https://github.com/AbdalrhmanAmmar/photography/",
-    category: ["UI UX"],
+    category: ["ReactJs"],
     categoryuser: ["landing page"],
-    key_techs: ["Html", "Css", "Bootstrap", "Javascript"],
-  },
-  {
-    name: "Coffee",
-    description:
-      " Our coffee website offers you the finest carefully-roasted coffee beans and unique coffee preparations that cater to all tastes. In addition, we offer some delicious light bites. Visit us now and enjoy a distinctive coffee experience.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["Nextjs"],
-    categoryuser: ["landing page"],
-    key_techs: ["Html", "Css", "Bootstrap", "Javascript"],
-  },
-
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["ReactJs"],
-    categoryuser: ["Ecommerce"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["ReactJs"],
-    categoryuser: ["Ecommerce"],
-    key_techs: ["HTML", "CSS"],
-  },
-  {
-    name: "Landing Page",
-    description:
-      "Created a clean and modern landing page using HTML/CSS with a focus on user experience, responsiveness, and attention to detail.",
-    image_path: "/barber.png",
-    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
-    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
-    category: ["ReactJs"],
-    categoryuser: ["Ecommerce"],
-    key_techs: ["HTML", "CSS"],
+    key_techs: ["ReactJs", "Css"],
   },
 ];

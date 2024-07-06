@@ -22,6 +22,6 @@ export interface Iproject {
   key_techs: string[];
 }
 
-export type categorydev = "UI UX" | "ReactJs" | "Nextjs";
+export type categorydev = "UI UX" | "ReactJs" | "React Native" | "Nextjs";
 
 export type categoryuser = "landing page" | "Ecommerce";

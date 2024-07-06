@@ -24,8 +24,8 @@ const config: Config = {
         foreground: "#E5E7EB",
         baseColor: "#10B981",
         CustomeGreen: "#34D399",
-        CustomeBlue: "#60A5FA",
-        defaultbackground: "#00f260",
+        CustomeBlue: "#3B82F6",
+        defaultbackground: "#009688~",
         dark: {
           DEFAULT: "#010101",
           100: "#0a0b0e",
@@ -35,6 +35,14 @@ const config: Config = {
           700: "#202125",
         },
       },
+      // screens: {
+      //   xss: "100px",
+      //   xs: "475px ", // Extra small devices
+      //   sm: "640px", // Small devices
+      //   md: "1022px", // Medium devices
+      //   lg: "1400px", // Large devices
+      //   xl: "1560px", // Extra large devices
+      // },
     },
   },
   plugins: [],

@@ -16,7 +16,7 @@ function Sidebar() {
         alt="Abdelrhman Ammar"
       />
       <h1 className="my-4 text-3xl font-medium tracking-wider">
-        <span className="font-Playwrite">Abdelrhman</span> Ammar
+        <span className="font-Playwrite text-green-600">Abdelrhman</span> Ammar
       </h1>
       <p className="px-2 py-1 my-3 rounded-full bg-foreground dark:bg-dark-200 dark:bg-black-500">
         Frontend developer
@@ -30,10 +30,10 @@ function Sidebar() {
         Download Resume
       </a>
       <div className="flex justify-around my-5 text-baseColor ">
-        <a href="">
+        <a href="https://github.com/AbdalrhmanAmmar" target="_blank">
           <FaGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/abdelrahman-ar/" target="_blank">
           <FaLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="">

@@ -49,7 +49,7 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
   const [isToggleCategory, setToggleCategory] = useState(true);
 
   return (
-    <div className="flex items-center justify-between w-full">
+    <div className="flex items-center justify-between w-full xs:flex-row   xss:items-center">
       <div className="px-3 py-2 flex space-x-3 overflow-x-auto list-none">
         {isToggleCategory ? (
           <>
@@ -65,6 +65,11 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
             />
             <NavItemDev
               value="ReactJs"
+              handlefilterCategory={handlefilterCategory}
+              Active={Active}
+            />
+            <NavItemDev
+              value="React Native"
               handlefilterCategory={handlefilterCategory}
               Active={Active}
             />
