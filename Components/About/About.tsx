@@ -2,13 +2,20 @@
 
 import { services } from "@/utils/data";
 import ServiceCard from "./ServiceCard";
-import { stagger } from "@/utils/animation";
+import { stagger, fadeInUp, routeFade } from "@/utils/animation";
 
 import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <motion.div className="flex flex-col flex-grow px-6 pt-1 ">
+    <motion.div
+      variants={routeFade}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+      className="flex flex-col flex-grow px-6 pt-1
+     "
+    >
       <h6 className="my-3 text-base font-medium">
         Greetings! I'm Abdelrhman, a passionate Front-End Web Developer with
         expertise in HTML, CSS, JavaScript, React.js, TypeScript, and Next.js.
