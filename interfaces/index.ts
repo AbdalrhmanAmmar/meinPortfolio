@@ -16,7 +16,7 @@ export interface Iproject {
   description: string;
   image_path: string;
   deployed_url: string;
-  github_url: string;
+  github_url?: string;
   category: categorydev[];
   categoryuser: categoryuser[];
   key_techs: string[];
@@ -24,4 +24,4 @@ export interface Iproject {
 
 export type categorydev = "UI UX" | "ReactJs" | "React Native" | "Nextjs";
 
-export type categoryuser = "landing page" | "Ecommerce";
+export type categoryuser = "landing page" | "Ecommerce" | "Agency";

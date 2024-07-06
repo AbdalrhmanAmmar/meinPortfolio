@@ -102,6 +102,17 @@ export const tools: Skill[] = [
 
 export const projectsdata: Iproject[] = [
   {
+    name: "Scale Your Marketing",
+    description:
+      "Our website offers a range of personalized grooming services to help you look and feel your best. Our experienced barbers and stylists provide haircuts, beard trims, hot towel shaves, coloring, styling, and more. Book your appointment today and experience our expert services at competitive prices.",
+    image_path: "/Images/scaleurmarketing.JPG",
+    deployed_url: "https://www.scale-your-marketing.com/",
+    github_url: "",
+    category: ["ReactJs"],
+    categoryuser: ["landing page"],
+    key_techs: ["Nextjs", "framer-motion", "nodemailer", "react-countup"],
+  },
+  {
     name: " Tour and Travel",
     description:
       "Our website offers a range of personalized grooming services to help you look and feel your best. Our experienced barbers and stylists provide haircuts, beard trims, hot towel shaves, coloring, styling, and more. Book your appointment today and experience our expert services at competitive prices.",
@@ -111,6 +122,17 @@ export const projectsdata: Iproject[] = [
     category: ["ReactJs"],
     categoryuser: ["landing page"],
     key_techs: ["ReactJs", "Css"],
+  },
+  {
+    name: "Transunity Agency",
+    description:
+      "Built a dynamic translation agency using Next.js and the Next.js theme, optimizing global communication through innovative technology..",
+    image_path: "/Images/transunity.JPG",
+    deployed_url: "https://transunityofficial.com/",
+    github_url: "https://github.com/AbdalrhmanAmmar/Transunity",
+    category: ["Nextjs"],
+    categoryuser: ["Agency"],
+    key_techs: ["Nextjs"],
   },
   {
     name: " Porfoltio",

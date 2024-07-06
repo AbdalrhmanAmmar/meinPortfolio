@@ -23,7 +23,7 @@ const ProjectCard: FunctionComponent<ProjectCardProps> = ({ project }) => {
         alt={name}
         width={300}
         height={150}
-        className="cursor-pointer"
+        className="cursor-pointer h-[150px]"
         onClick={() => setshowDetails(!showDetails)}
       />
       <p className="grid md:grid-cols-2">{name}</p>
@@ -49,12 +49,15 @@ const ProjectCard: FunctionComponent<ProjectCardProps> = ({ project }) => {
               variants={fadeInUp}
               className="flex justify-center my-4 space-x-3"
             >
-              <a
-                href={github_url}
-                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 "
-              >
-                <FaGithub /> <span>Github</span>
-              </a>
+              {github_url && (
+                <a
+                  href={github_url}
+                  className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 "
+                >
+                  <FaGithub /> <span>Github</span>
+                </a>
+              )}
+
               <a
                 href={deployed_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
@@ -70,10 +73,17 @@ const ProjectCard: FunctionComponent<ProjectCardProps> = ({ project }) => {
             >
               {name}
             </motion.h2>
-            <motion.h3               variants={fadeInUp}
- className="my-3 text-base font-medium">{description}</motion.h3>
+            <motion.h3
+              variants={fadeInUp}
+              className="my-3 text-base font-medium"
+            >
+              {description}
+            </motion.h3>
 
-            <motion.div     variants={fadeInUp} className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
+            <motion.div
+              variants={fadeInUp}
+              className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider"
+            >
               {key_techs.map((value, i) => (
                 <span
                   key={i}

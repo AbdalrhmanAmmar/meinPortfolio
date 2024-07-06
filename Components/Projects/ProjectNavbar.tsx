@@ -87,7 +87,7 @@ const ProjectNavbar: FunctionComponent<ProjectNavbarProps> = ({
               Active={Active}
             />
             <NavItemuser
-              value="landing page"
+              value="Agency"
               handlefilterCategoryuser={handlefilterCategoryuser}
               Active={Active}
             />
