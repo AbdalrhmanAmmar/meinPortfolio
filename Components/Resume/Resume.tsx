@@ -12,9 +12,7 @@ function Resume() {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">
-              Computer Science Engineering
-            </h5>
+            <h5 className="my-2 text-xl font-bold">damietta university</h5>
             <p className="font-semibold">Academy of Technology (2017-2021)</p>
             <p className="my-3">
               I am currently pursuing B.tech in Computer Science Engineering
