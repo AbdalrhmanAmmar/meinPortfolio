@@ -145,4 +145,15 @@ export const projectsdata: Iproject[] = [
     categoryuser: ["landing page"],
     key_techs: ["ReactJs", "Css"],
   },
+  {
+    name: " Italy Resturant",
+    description:
+      "Our website offers a range of personalized grooming services to help you look and feel your best. Our experienced barbers and stylists provide haircuts, beard trims, hot towel shaves, coloring, styling, and more. Book your appointment today and experience our expert services at competitive prices.",
+    image_path: "/Images/Resturant.JPG",
+    deployed_url: "https://abdalrhmanammar.github.io/Resturant/index.html",
+    github_url: "https://github.com/AbdalrhmanAmmar/Resturant",
+    category: ["UI UX"],
+    categoryuser: ["landing page"],
+    key_techs: ["Html", "Css", "JavaScript"],
+  },
 ];
