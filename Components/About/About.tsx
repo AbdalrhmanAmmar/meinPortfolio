@@ -1,19 +1,14 @@
+"use client";
+
 import { services } from "@/utils/data";
 import ServiceCard from "./ServiceCard";
-import { fadeInUp, routeFade } from "@/utils/animation";
+import { stagger } from "@/utils/animation";
 
 import { motion } from "framer-motion";
-import { stagger } from "../../utils/animation";
 
 export default function About() {
   return (
-    <motion.div
-      className="flex flex-col flex-grow px-6 pt-1 "
-      variants={routeFade}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <motion.div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
         Greetings! I'm Abdelrhman, a passionate Front-End Web Developer with
         expertise in HTML, CSS, JavaScript, React.js, TypeScript, and Next.js.
@@ -38,14 +33,14 @@ export default function About() {
           animate="animate"
           initial="initial"
         >
-          {/* children's initial and animate property should be same as the parent during a stagger effect  */}
+          {}
           {services.map((service) => (
             <motion.div
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-black-200 md:col-span-1 "
               key={service.title}
               variants={fadeInUp}
-              // animate="animate"
-              // initial="initial"
+              animate="animate"
+              initial="initial"
             >
               <ServiceCard service={service} />
             </motion.div>
