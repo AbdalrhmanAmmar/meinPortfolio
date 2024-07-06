@@ -43,11 +43,9 @@ export default function About() {
           {}
           {services.map((service) => (
             <motion.div
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-black-200 md:col-span-1 "
+              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
               key={service.title}
               variants={fadeInUp}
-              animate="animate"
-              initial="initial"
             >
               <ServiceCard service={service} />
             </motion.div>
