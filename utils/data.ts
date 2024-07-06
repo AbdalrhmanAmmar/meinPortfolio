@@ -146,6 +146,28 @@ export const projectsdata: Iproject[] = [
     key_techs: ["ReactJs", "Css"],
   },
   {
+    name: " Dashboard",
+    description:
+      "I You have built a dashboard using ReactJS to display data. The dashboard provides an interface for users to view and interact with the data in a visually appealing and user-friendly way. The project utilizes ReactJS components to create a modular and scalable design, allowing for easy maintenance and future development.",
+    image_path: "/Images/dashboards.JPG",
+    deployed_url: "https://github.com/AbdalrhmanAmmar/Dashboard",
+    github_url: "https://dashboard-eta-lovat.vercel.app/",
+    category: ["ReactJs"],
+    categoryuser: ["Dashboard"],
+    key_techs: ["ReactJs", "Material UI", "react-hook-form", "nivo"],
+  },
+  {
+    name: "Coffee Site",
+    description:
+      "Our coffee website offers you the finest carefully-roasted coffee beans and unique coffee preparations that cater to all tastes. In addition, we offer some delicious light bites. Visit us now and enjoy a distinctive coffee experience..",
+    image_path: "/Images/coffeeshop.JPG",
+    deployed_url: "https://abdalrhmanammar.github.io/coffee-website/",
+    github_url: "https://github.com/AbdalrhmanAmmar/coffee-website",
+    category: ["UI UX"],
+    categoryuser: ["landing page"],
+    key_techs: ["Html", "Css", "JavaScript", "Bootstrap"],
+  },
+  {
     name: " Italy Resturant",
     description:
       "Our website offers a range of personalized grooming services to help you look and feel your best. Our experienced barbers and stylists provide haircuts, beard trims, hot towel shaves, coloring, styling, and more. Book your appointment today and experience our expert services at competitive prices.",
@@ -155,5 +177,16 @@ export const projectsdata: Iproject[] = [
     category: ["UI UX"],
     categoryuser: ["landing page"],
     key_techs: ["Html", "Css", "JavaScript"],
+  },
+  {
+    name: "Photography",
+    description:
+      "Discover a stunning collection of images on our website, featuring a wide variety of captivating themes and subjects for your viewing pleasure.",
+    image_path: "/Images/photograph.JPG",
+    deployed_url: "https://abdalrhmanammar.github.io/photography/",
+    github_url: "https://github.com/AbdalrhmanAmmar/photography/",
+    category: ["UI UX"],
+    categoryuser: ["landing page"],
+    key_techs: ["Html", "Css", "JavaScript", "bootstrap"],
   },
 ];

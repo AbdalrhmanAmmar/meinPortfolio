@@ -24,4 +24,4 @@ export interface Iproject {
 
 export type categorydev = "UI UX" | "ReactJs" | "React Native" | "Nextjs";
 
-export type categoryuser = "landing page" | "Ecommerce" | "Agency";
+export type categoryuser = "landing page" | "Ecommerce" | "Agency" |"Dashboard";
