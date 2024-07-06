@@ -41,7 +41,7 @@ function Projects() {
   };
 
   return (
-    <motion.dev
+    <motion.div
       variants={routeFade}
       initial="hidden"
       animate="visible"
@@ -58,21 +58,24 @@ function Projects() {
           handlefilterCategoryuser={handlefilterCategoryuser}
         />
       </nav>
-      <motion.dev 
+      <motion.div
         variants={stagger}
         initial="initial"
         animate="animate"
-      
-      className="relative grid grid-cols-12 gap-4 my-3  ">
+        className="relative grid grid-cols-12 gap-4 my-3  "
+      >
         {Projects.map((project) => (
           <>
-            <motion.dev  variants={fadeInUp} className="col-span-12 sm:col-span-6 lg:col-span-4 dark:bg-dark-200">
+            <motion.div
+              variants={fadeInUp}
+              className="col-span-12 sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+            >
               <ProjectCard project={project} key={project.name} />
-            </motion.dev>
+            </motion.div>
           </>
         ))}
-      </motion.dev>
-    </motion.dev>
+      </motion.div>
+    </motion.div>
   );
 }
 
