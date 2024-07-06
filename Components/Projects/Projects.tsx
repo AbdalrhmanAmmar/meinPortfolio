@@ -68,7 +68,7 @@ function Projects() {
           <>
             <motion.div
               variants={fadeInUp}
-              className="col-span-12 sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+              className="col-span-12 sm:col-span-6 lg:col-span-4 bg-gray-200 dark:bg-dark-200"
             >
               <ProjectCard project={project} key={project.name} />
             </motion.div>

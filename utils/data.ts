@@ -109,7 +109,7 @@ export const projectsdata: Iproject[] = [
     deployed_url: "https://www.scale-your-marketing.com/",
     github_url: "",
     category: ["ReactJs"],
-    categoryuser: ["landing page"],
+    categoryuser: ["Agency"],
     key_techs: ["Nextjs", "framer-motion", "nodemailer", "react-countup"],
   },
   {
